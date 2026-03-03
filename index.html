@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Disci-App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <h1>Disci-App</h1>
+
+    <h2>Create Mission</h2>
+
+    <input type="text" id="name" placeholder="Mission name">
+    <input type="text" id="description" placeholder="Mission description">
+
+    <select id="difficulty">
+        <option value="Easy">Easy (10 XP)</option>
+        <option value="Normal">Normal (25 XP)</option>
+        <option value="Hard">Hard (50 XP)</option>
+    </select>
+
+    <button id="addMission">Add Mission</button>
+
+    <h2>Total XP: <span id="totalXP">0</span></h2>
+    <h3>Category: <span id="category">Beginner</span></h3>
+
+    <h2>Missions</h2>
+    <ul id="missionList"></ul>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
